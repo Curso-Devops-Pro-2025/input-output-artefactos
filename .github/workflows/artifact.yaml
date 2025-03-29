@@ -39,3 +39,5 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: ${{ env.nome-artefacto }}
+      - name: Listagem de arquivos
+        run: ls
