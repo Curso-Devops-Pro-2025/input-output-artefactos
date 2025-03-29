@@ -34,7 +34,7 @@ jobs:
     needs: upload-artifact
     steps:
       - name: Listagem de arquivos
-        run: ls ./artefactos
+        run: ls
       - name: Download Artifacts
         uses: actions/download-artifact@v4
         with:
